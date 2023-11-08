@@ -4,7 +4,7 @@ export let cardDescription;
 export let cardImg; 
 export let cardLink;
 export let altText;
-export let visible = true; 
+export let visible = true;
 </script>
 {#if visible = true}
 <figure class="max-w-xs bg-rose-900 hover:bg-rose-950 rounded-3xl p-6">
